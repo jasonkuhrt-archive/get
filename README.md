@@ -1,4 +1,4 @@
-# get
+# get [![Build Status](https://travis-ci.org/jasonkuhrt/get.png?branch=master)](https://travis-ci.org/jasonkuhrt/get)
 
 Safely, succinctly, access hash data
 
