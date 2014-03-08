@@ -1,6 +1,6 @@
 {
   "name": "jasonkuhrt-get",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Safely, succinctly, access hash data",
   "main": "index.js",
   "scripts": {
