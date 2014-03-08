@@ -10,11 +10,9 @@ Safely, succinctly, access hash data
 
 #### get(path, object)
 
-`path`
-- May be a `String` or `[String]`.
+`path` –– May be a `String` or `[String]`.
 
-`object`
-- Any object.
+`object` –– Any object.
 
 `return`
 - If `path` lookup fails, the last found value.
@@ -36,4 +34,4 @@ get('a.b.c',  o) === get(['a','b','c'], o); // true
 var ids = users.map(get('id')); // e.g. [1, 45, 82, 8392, ...etc]
 ```
 
-For mroe see [tests](https://github.com/jasonkuhrt/get/blob/master/test/index.js).
+For more see [tests](https://github.com/jasonkuhrt/get/blob/master/test/index.js).
