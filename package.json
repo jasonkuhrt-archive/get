@@ -1,0 +1,41 @@
+{
+  "name": "get",
+  "version": "0.0.0",
+  "description": "Safely, succinctly, access hash data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "dev": "./node_modules/.bin/mocha --reporter spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonkuhrt/get.git"
+  },
+  "keywords": [
+    "safe",
+    "property",
+    "access",
+    "read",
+    "hash",
+    "object",
+    "null"
+  ],
+  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/get/issues"
+  },
+  "homepage": "https://github.com/jasonkuhrt/get",
+  "dependencies": {
+    "lodash.curry": "~2.4.1",
+    "lodash.has": "~2.4.1",
+    "lodash.reduce": "~2.4.1",
+    "lodash.isstring": "~2.4.1",
+    "lodash.isobject": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "lodash.isplainobject": "~2.4.1",
+    "LiveScript": "~1.2.0"
+  }
+}
