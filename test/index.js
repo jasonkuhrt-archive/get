@@ -34,6 +34,14 @@ describe('get', function(){
     assert.equal(get(['c', 'c2'], o), 'c2');
   });
 
+  it('path as empty string', function(){
+    assert.equal(get('', o), o);
+  });
+
+  it('path as empty array', function(){
+    assert.equal(get([], o), o);
+  });
+
   it('is curried', function(){
     assert.equal(get('d')(o), o);
   });
